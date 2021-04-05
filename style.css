@@ -31,7 +31,7 @@ body {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .task-row-wrapper {
     display: flex;
@@ -118,7 +118,7 @@ li > label {
     width: 226px;
 }
 li >    input[type="text"] {
-    width: 226px
+    width: 226px;
 }
 .delete img {
     height: 2em;
@@ -137,12 +137,12 @@ li >    input[type="text"] {
 
 /* Edit Task */
 ul li [type=text] {
-    display:none
+    display:none;
 }
 
 ul .edit-mode [type=text] {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 ul .edit-mode label {
